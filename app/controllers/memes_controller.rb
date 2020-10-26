@@ -9,6 +9,7 @@ class MemesController < ApplicationController
     end
   end
 
+# 
   def show
 
   end
