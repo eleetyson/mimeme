@@ -1,21 +1,14 @@
 class CommentsController < ApplicationController
-# return information for all memes
-# /memes/:meme_id/comments
+# create a comment and associate it with the proper meme
   def create
-    # meme = Meme.find_by(id: params[:id])
-    # if meme
-    #
-    # else
-    #
-    # end
+    meme = Meme.find_by(id: params[:comment][:meme_id])
+
+    if meme && params[:comment][:proposedc].present?
+      comment = Comment.create(content: params[:comment][:proposedc], meme_id: meme.id)
+      render json: comment
+    else
+      render json: { message: 'An unexpected error occurred.' }
+    end
   end
-  # def index
-  #   memes = Meme.all
-  #   if memes
-  #     render json: memes, include: [:comments]
-  #   else
-  #     render json: { message: 'An unexpected error occurred.' }
-  #   end
-  # end
 
 end

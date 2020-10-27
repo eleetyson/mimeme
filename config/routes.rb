@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :memes, only: [:index] do
-    resources :comments, only: [:create]
-  end
+  resources :memes, only: [:index]
+  resources :comments, only: [:create]
 end
