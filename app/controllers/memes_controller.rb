@@ -8,9 +8,5 @@ class MemesController < ApplicationController
       render json: { message: 'An unexpected error occurred.' }
     end
   end
-
-# 
-  def show
-
-  end
+  
 end
