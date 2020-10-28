@@ -1,6 +1,4 @@
 
-\*To see the frontend repo for this application, head over to <https://github.com/eleetyson/mimeme-frontend>\*
-
 **Mimeme** is Greek for 'that which is imitated'. It's in reference to this word that evolutionary biologist Richard Dawkins coined the term **meme** in his 1976 book, The Selfish Gene:
 
 > "We need a name for the new replicator, a noun that conveys the idea of a unit of cultural transmission, or a unit of imitation."
@@ -11,3 +9,5 @@ This single-page app is a searchable index of popular memes and the unusual stor
 
 ### Credit
 On the backend, Mimeme is a Rails API with a Postgres database. Its frontend is built with JavaScript and Bootstrap. Though all API calls are made via asynchronous fetch requests, I used [MiniSearch](https://github.com/lucaong/minisearch) to implement a client-side search feature. Huge shoutout to Luca Ongaro for his thoughtful documentation and ongoing maintenance of MiniSearch.
+
+\*To see the frontend repo for this application, head over to <https://github.com/eleetyson/mimeme-frontend>\*
