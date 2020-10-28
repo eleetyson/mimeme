@@ -7,7 +7,7 @@
 
 More than 40 years later, this concept has evolved in ways that Dawkins could never have predicted. As we increasingly communicate through images, emojis, and ever-shorter messages, memes pervade internet culture and as a result, our everyday lives. Like them or not, popular memes are culturally significant.
 
-This single-page app is a searchable index of popular memes and the unusual stories behind them. You can see it at <> and watch a quick demo of it [here]().
+This single-page app is a searchable index of popular memes and the unusual stories behind them. You can see it at <https://eleetyson.github.io/mimeme-frontend/> and watch a quick demo of it [here]().
 
 ### Credit
 On the backend, Mimeme is a Rails API with a Postgres database. Its frontend is built with JavaScript and Bootstrap. Though all API calls are made via asynchronous fetch requests, I used [MiniSearch](https://github.com/lucaong/minisearch) to implement a client-side search feature. Huge shoutout to Luca Ongaro for his thoughtful documentation and ongoing maintenance of MiniSearch.
