@@ -1,6 +1,6 @@
 [![click to watch full Mimeme demo](demo.gif)](https://www.loom.com/share/55aba63e3dc444228913a7b8a1356396)
 
-This single-page app is a searchable index of popular memes and the unusual stories behind them. It's live [here](https://eleetyson.github.io/mimeme-frontend/) and you can watch a quick demo of it [here]().
+This single-page app is a searchable index of popular memes and the unusual stories behind them. It's live [here](https://eleetyson.github.io/mimeme-frontend/) and you can watch a quick demo of it [here](https://www.loom.com/share/55aba63e3dc444228913a7b8a1356396).
 
 **Mimeme** is Greek for 'that which is imitated'. It's in reference to this word that evolutionary biologist Richard Dawkins coined the term **meme** in his 1976 book, The Selfish Gene:
 
