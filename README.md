@@ -12,3 +12,4 @@ More than 40 years later, this concept has evolved in ways that Dawkins could ne
 On the backend, Mimeme is a Rails API with a Postgres database. Its [frontend](https://github.com/eleetyson/mimeme-frontend) is built with JavaScript and Bootstrap. Though all API calls are made via asynchronous fetch requests, I used [MiniSearch](https://github.com/lucaong/minisearch) to implement a client-side search feature. Huge shoutout to Luca Ongaro for his thoughtful documentation and ongoing maintenance of MiniSearch.
 
 \*To see the frontend repo for this application, head over to <https://github.com/eleetyson/mimeme-frontend>\*
+\*To see an example response from the API, visit <https://mimeme.herokuapp.com/memes>\*
