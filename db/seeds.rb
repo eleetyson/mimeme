@@ -32,7 +32,7 @@ c11 = Comment.create(content: "Arthur just angry cause aardvarks always be hungr
 m11 = Meme.create(name: "Condescending Wonka", description: "Though often captioned with patronizing or condescending comments, this moment captures the eccentric Willy Wonka explaining his factory's newest concoction: The Everlasting Gobstopper. You may recognize the scene from 1971 musical Willy Wonka & the Chocolate Factory, adopted from Roald Dahl's novel Charlie and the Chocolate Factory.")
 c12 = Comment.create(content: "Shoutout to the inimitable Roald Dahl :)" , meme_id: 11)
 
-m12 = Meme.create(name: "Spider-Man Pointing", description: "This meme traces back to a 1960s cartoon starring popular Marvel hero Spider-Man. His encounter with an imposter sparks accusatorial finter-pointing, and so the meme is used to indicate similar people or concepts meeting.")
+m12 = Meme.create(name: "Spider-Man Pointing", description: "This meme traces back to a 1960s cartoon starring popular Marvel hero Spider-Man. His encounter with an imposter sparks accusatorial finger-pointing, and so the meme is used to indicate similar people or concepts meeting.")
 c13 = Comment.create(content: "With great memes comes great responsibility.", meme_id: 12)
 
 m13 = Meme.create(name: "This Is Fine", description: "This carefree cartoon dog is part of a larger comic strip published in 2013, under webcomic series Gunshow by KC Green. Despite being engulfed by flames and a burning room, the pooch insists that everything will be OK. The image is used to convey denial in the face of a dire situation, like a house on fire or 2020.")
