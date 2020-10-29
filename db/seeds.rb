@@ -35,5 +35,5 @@ c12 = Comment.create(content: "Shoutout to the inimitable Roald Dahl :)" , meme_
 m12 = Meme.create(name: "Spider-Man Pointing", description: "This meme traces back to a 1960s cartoon starring popular Marvel hero Spider-Man. His encounter with an imposter sparks accusatorial finter-pointing, and so the meme is used to indicate similar people or concepts meeting.")
 c13 = Comment.create(content: "With great memes comes great responsibility.", meme_id: 12)
 
-m13 = Meme.create(name: "", description: "")
-c14 = Comment.create(content: "", meme_id: )
+m13 = Meme.create(name: "This Is Fine", description: "This carefree cartoon dog is part of a larger comic strip published in 2013, under webcomic series Gunshow by KC Green. Despite being engulfed by flames and a burning room, the pooch insists that everything will be OK. The image is used to convey denial in the face of a dire situation, like a house on fire or 2020.")
+c14 = Comment.create(content: "Might be from 2013, but this is 2020 in a nutshell", meme_id: 13)
