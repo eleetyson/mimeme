@@ -26,5 +26,8 @@ c9 = Comment.create(content: "This meme is top-shelf for making petty digs, 10/1
 m9 = Meme.create(name: "Mocking SpongeBob", description: "Also known as Spongemock, this picture captures popular TV character SpongeBob SquarePants imitating a chicken. It rose to Twitter prominence in 2017, typically invoked sarcastically or for ridicule and accompanied by an erratically capitalized caption.")
 c10 = Comment.create(content: "dOn'T uSe ThAt WeIrD sPoNgEbOb MeMe", meme_id: 9)
 
-m10 =
-c11 = 
+m10 = Meme.create(name: "Arthur's Fist", description: "This clenched fist belongs to lovable aardvark Arthur Read, of the long-running PBS children's TV series Arthur. The shot is from before an angry Arthur punches his sister DW for breaking his toy airplane -- hence why it's used to convey frustration and the episode got a rare TV-Y7 rating.")
+c11 = Comment.create(content: "Arthur just angry cause aardvarks always be hungry", meme_id: 10)
+
+m11 = Meme.create(name: "", description: "")
+c12 = Comment.create(content: meme_id: 11)
