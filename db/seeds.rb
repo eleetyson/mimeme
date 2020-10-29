@@ -22,3 +22,9 @@ c8 = Comment.create(content: "I prefer Darth Kermit", meme_id: 7)
 
 m8 = Meme.create(name: "Roll Safe", description: "What you might also recognized as the 'guy tapping head meme' features Reece Simpson -- also known as 'Roll Safe' -- a character on the British TV series #HoodDocumentary. Roll Safe is often used to illustrate flawed thinking or decision-making and originally blew up in the Twitter niche known as Black Twitter.")
 c9 = Comment.create(content: "This meme is top-shelf for making petty digs, 10/10.", meme_id: 8)
+
+m9 = Meme.create(name: "Mocking SpongeBob", description: "Also known as Spongemock, this picture captures popular TV character SpongeBob SquarePants imitating a chicken. It rose to Twitter prominence in 2017, typically invoked sarcastically or for ridicule and accompanied by an erratically capitalized caption.")
+c10 = Comment.create(content: "dOn'T uSe ThAt WeIrD sPoNgEbOb MeMe", meme_id: 9)
+
+m10 =
+c11 = 
