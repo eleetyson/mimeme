@@ -14,7 +14,7 @@ c5 = Comment.create(content: "This was my Halloween costume last year :'(", meme
 m5 = Meme.create(name: "Doge", description: "The subject of this meme is a dog named Kabosu, adopted by a Japanese schoolteacher in 2008. Kabosu's owner overlaid a picture of her with some Comic Sans font in 2010, and the internet went to work. The now-famous Shiba Inu has since been referenced by members of the US Congress and also spawned a cryptocurrency, the Dogecoin.")
 c6 = Comment.create(content: "The internet loves cute dogs and that will never change :)", meme_id: 5)
 
-m6 = Meme.create(name: "Success Kid", description: "This meme is of photographer Laney Griner's baby boy, Sam, after he apparently tried to eat some sand. When she uploaded the image of her son to Flickr in 2007, it quickly became fodder for self-congratulatory depictions. While Griner has licensed this picture to multiple advertisers, she also used it to raise money for a 2015 GoFundMe campaign to finance her husband's kidney transplant.")
+m6 = Meme.create(name: "Success Kid", description: "This meme is of photographer Laney Griner's baby boy, Sam, clenching his fist in supposed triumph. Upon uploading the image to Flickr in 2007, it quickly became fodder for self-congratulatory depictions. While Griner has licensed this picture to multiple advertisers, she also used it to raise money for a 2015 GoFundMe campaign to finance her husband's kidney transplant.")
 c7 = Comment.create(content: "Sam the man no doubt crushing it these days!", meme_id: 6)
 
 m7 = Meme.create(name: "Kermit Sipping Tea", description: "You've probably seen this meme of Muppets character Kermit the Frog casually sipping some Lipton tea. It's typically used sarcastically, to lighten what would otherwise be interpreted as smug self-righteousness. Like Arthur and Willy Wonka, it's believed that memes of Kermit are so common because he's widely recognized and loved.")
@@ -29,5 +29,11 @@ c10 = Comment.create(content: "dOn'T uSe ThAt WeIrD sPoNgEbOb MeMe", meme_id: 9)
 m10 = Meme.create(name: "Arthur's Fist", description: "This clenched fist belongs to lovable aardvark Arthur Read, of the long-running PBS children's TV series Arthur. The shot is from before an angry Arthur punches his sister DW for breaking his toy airplane -- hence why it's used to convey frustration and the episode got a rare TV-Y7 rating.")
 c11 = Comment.create(content: "Arthur just angry cause aardvarks always be hungry", meme_id: 10)
 
-m11 = Meme.create(name: "", description: "")
-c12 = Comment.create(content: meme_id: 11)
+m11 = Meme.create(name: "Condescending Wonka", description: "Though often captioned with patronizing or condescending comments, this moment captures the eccentric Willy Wonka explaining his factory's newest concoction: The Everlasting Gobstopper. You may recognize the scene from 1971 musical Willy Wonka & the Chocolate Factory, adopted from Roald Dahl's novel Charlie and the Chocolate Factory.")
+c12 = Comment.create(content: "Shoutout to the inimitable Roald Dahl :)" , meme_id: 11)
+
+m12 = Meme.create(name: "Spider-Man Pointing", description: "This meme traces back to a 1960s cartoon starring popular Marvel hero Spider-Man. His encounter with an imposter sparks accusatorial finter-pointing, and so the meme is used to indicate similar people or concepts meeting.")
+c13 = Comment.create(content: "With great memes comes great responsibility.", meme_id: 12)
+
+m13 = Meme.create(name: "", description: "")
+c14 = Comment.create(content: "", meme_id: )
