@@ -37,3 +37,6 @@ c13 = Comment.create(content: "With great memes comes great responsibility.", me
 
 m13 = Meme.create(name: "This Is Fine", description: "This carefree cartoon dog is part of a larger comic strip published in 2013, under webcomic series Gunshow by KC Green. Despite being engulfed by flames and a burning room, the pooch insists that everything will be OK. The image is used to convey denial in the face of a dire situation, like a house on fire or 2020.")
 c14 = Comment.create(content: "Might be from 2013, but this is 2020 in a nutshell", meme_id: 13)
+
+m14 = Meme.create(name: "Daily Struggle", description: "This image typically appears with text displaying contradictory statements above the two red buttons. Posted as an original comic by professional illustrator Jake Clark to his Tumblr, it's used to portray a relatively simply decision causing great stress.")
+c15 = Comment.create(content: "Me. Every day.", meme_id: 14)
